@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: #666;
+}
+.date{
+    font-style: italic;
+    color: gray;
+    font-size: small;
+}
+
+.content{
+    max-width: 80%;
+}
+
+.sidebar{
+    background-color: rgb(164, 164, 164);
+    width: 200px;
+
+}
